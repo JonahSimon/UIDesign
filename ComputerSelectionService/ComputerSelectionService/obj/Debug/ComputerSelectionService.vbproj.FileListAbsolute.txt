@@ -1,0 +1,11 @@
+C:\Users\Jonah Simon\Desktop\Classes\UIDesign\Final\UIDesign\ComputerSelectionService\ComputerSelectionService\bin\Debug\ComputerSelectionService.exe.config
+C:\Users\Jonah Simon\Desktop\Classes\UIDesign\Final\UIDesign\ComputerSelectionService\ComputerSelectionService\bin\Debug\ComputerSelectionService.exe
+C:\Users\Jonah Simon\Desktop\Classes\UIDesign\Final\UIDesign\ComputerSelectionService\ComputerSelectionService\bin\Debug\ComputerSelectionService.pdb
+C:\Users\Jonah Simon\Desktop\Classes\UIDesign\Final\UIDesign\ComputerSelectionService\ComputerSelectionService\bin\Debug\ComputerSelectionService.xml
+C:\Users\Jonah Simon\Desktop\Classes\UIDesign\Final\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Debug\ComputerSelectionService.vbprojAssemblyReference.cache
+C:\Users\Jonah Simon\Desktop\Classes\UIDesign\Final\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Debug\ComputerSelectionService.StartupPage.resources
+C:\Users\Jonah Simon\Desktop\Classes\UIDesign\Final\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Debug\ComputerSelectionService.Resources.resources
+C:\Users\Jonah Simon\Desktop\Classes\UIDesign\Final\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Debug\ComputerSelectionService.vbproj.GenerateResource.cache
+C:\Users\Jonah Simon\Desktop\Classes\UIDesign\Final\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Debug\ComputerSelectionService.exe
+C:\Users\Jonah Simon\Desktop\Classes\UIDesign\Final\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Debug\ComputerSelectionService.xml
+C:\Users\Jonah Simon\Desktop\Classes\UIDesign\Final\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Debug\ComputerSelectionService.pdb
