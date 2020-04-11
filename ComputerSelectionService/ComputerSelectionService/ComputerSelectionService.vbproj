@@ -73,11 +73,23 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConsumerForm1.Designer.vb">
+      <DependentUpon>ConsumerForm1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ConsumerForm1.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GamingForm1.Designer.vb">
+      <DependentUpon>GamingForm1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GamingForm1.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -95,16 +107,31 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="ProfessionalForm1.Designer.vb">
+      <DependentUpon>ProfessionalForm1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ProfessionalForm1.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="ConsumerForm1.resx">
+      <DependentUpon>ConsumerForm1.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GamingForm1.resx">
+      <DependentUpon>GamingForm1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProfessionalForm1.resx">
+      <DependentUpon>ProfessionalForm1.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
