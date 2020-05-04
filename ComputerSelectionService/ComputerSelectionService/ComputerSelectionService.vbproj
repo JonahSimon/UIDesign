@@ -86,10 +86,22 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="GamingForm2.Designer.vb">
+      <DependentUpon>GamingForm2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GamingForm2.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="GamingForm1.Designer.vb">
       <DependentUpon>GamingForm1.vb</DependentUpon>
     </Compile>
     <Compile Include="GamingForm1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GamingForm3.Designer.vb">
+      <DependentUpon>GamingForm3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GamingForm3.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -113,6 +125,12 @@
     <Compile Include="ProfessionalForm1.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="YourSelections.Designer.vb">
+      <DependentUpon>YourSelections.vb</DependentUpon>
+    </Compile>
+    <Compile Include="YourSelections.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="ConsumerForm1.resx">
@@ -124,6 +142,12 @@
     <EmbeddedResource Include="GamingForm1.resx">
       <DependentUpon>GamingForm1.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GamingForm2.resx">
+      <DependentUpon>GamingForm2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GamingForm3.resx">
+      <DependentUpon>GamingForm3.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -132,6 +156,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ProfessionalForm1.resx">
       <DependentUpon>ProfessionalForm1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YourSelections.resx">
+      <DependentUpon>YourSelections.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

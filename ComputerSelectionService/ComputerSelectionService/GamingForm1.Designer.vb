@@ -68,7 +68,7 @@ Partial Class GamingForm1
         Me.OverAThousand.Name = "OverAThousand"
         Me.OverAThousand.Size = New System.Drawing.Size(189, 81)
         Me.OverAThousand.TabIndex = 3
-        Me.OverAThousand.Text = "Over a thousand"
+        Me.OverAThousand.Text = "Over 1000"
         Me.OverAThousand.UseVisualStyleBackColor = True
         '
         'Label1
@@ -103,9 +103,8 @@ Partial Class GamingForm1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.AutoSize = True
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(906, 504)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)

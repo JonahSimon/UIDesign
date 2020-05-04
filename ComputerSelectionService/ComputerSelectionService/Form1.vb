@@ -1,8 +1,5 @@
-﻿Public Class StartupPage
-    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Me.FormBorderStyle = Windows.Forms.FormBorderStyle.None
-        Me.WindowState = FormWindowState.Maximized
-    End Sub
+﻿Imports ComputerSelectionService.GamingVariables
+Public Class StartupPage
 
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
 
@@ -19,7 +16,21 @@
     End Sub
 
     Private Sub Gaming_Click(sender As Object, e As EventArgs) Handles Gaming.Click
+        TypeOfComputer = "Gaming"
         GamingForm1.Show()
         Me.Hide()
     End Sub
+
+    Private Sub StartupPage_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class
+
+Public Class GamingVariables
+    Public Shared TypeOfComputer As String
+    Public Shared PriceRange As String
+    Public Shared DesktopOrLaptop As String
+    Public Shared CasualOrCompetitive As String
+
+End Class
+
