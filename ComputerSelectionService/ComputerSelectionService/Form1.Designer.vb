@@ -47,7 +47,7 @@ Partial Class StartupPage
         Me.Profesional.Name = "Profesional"
         Me.Profesional.Size = New System.Drawing.Size(189, 81)
         Me.Profesional.TabIndex = 1
-        Me.Profesional.Text = "Profesional Computer"
+        Me.Profesional.Text = "Professional Computer"
         Me.Profesional.UseVisualStyleBackColor = False
         '
         'Gaming

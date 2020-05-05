@@ -1,4 +1,5 @@
 ﻿Imports ComputerSelectionService.GamingVariables
+Imports ComputerSelectionService.ProfessionalVariables
 Public Class StartupPage
 
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
@@ -6,6 +7,7 @@ Public Class StartupPage
     End Sub
 
     Private Sub Profesional_Click(sender As Object, e As EventArgs) Handles Profesional.Click
+        TypeComputer = "Professional"
         ProfessionalForm1.Show()
         Me.Hide()
     End Sub
@@ -34,3 +36,10 @@ Public Class GamingVariables
 
 End Class
 
+Public Class ProfessionalVariables
+    Public Shared TypeComputer As String
+    Public Shared PriceRange As String
+    Public Shared DesktopOrLaptop As String
+    Public Shared GraphicOrData As String
+
+End Class
