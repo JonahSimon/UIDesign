@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class ProfessionalForm1
+Partial Class ProfessionalForm2
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -23,9 +23,8 @@ Partial Class ProfessionalForm1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.Lessthan500 = New System.Windows.Forms.Button()
-        Me.FivetoThousand = New System.Windows.Forms.Button()
-        Me.OverAThousand = New System.Windows.Forms.Button()
+        Me.Desktop = New System.Windows.Forms.Button()
+        Me.Laptop = New System.Windows.Forms.Button()
         Me.Title = New System.Windows.Forms.Label()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
@@ -35,51 +34,41 @@ Partial Class ProfessionalForm1
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Modern No. 20", 26.25!, System.Drawing.FontStyle.Bold)
-        Me.Label3.Location = New System.Drawing.Point(207, 95)
+        Me.Label3.Location = New System.Drawing.Point(76, 132)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(405, 36)
-        Me.Label3.TabIndex = 7
-        Me.Label3.Text = "What is your price range?"
+        Me.Label3.Size = New System.Drawing.Size(621, 36)
+        Me.Label3.TabIndex = 11
+        Me.Label3.Text = "Are you looking for a desktop or laptop?"
         '
-        'Lessthan500
+        'Desktop
         '
-        Me.Lessthan500.AccessibleName = ""
-        Me.Lessthan500.Font = New System.Drawing.Font("Modern No. 20", 20.25!)
-        Me.Lessthan500.Location = New System.Drawing.Point(63, 246)
-        Me.Lessthan500.Name = "Lessthan500"
-        Me.Lessthan500.Size = New System.Drawing.Size(189, 81)
-        Me.Lessthan500.TabIndex = 8
-        Me.Lessthan500.Text = "Less than 500"
-        Me.Lessthan500.UseVisualStyleBackColor = True
+        Me.Desktop.AccessibleName = ""
+        Me.Desktop.Font = New System.Drawing.Font("Modern No. 20", 20.25!)
+        Me.Desktop.Location = New System.Drawing.Point(170, 239)
+        Me.Desktop.Name = "Desktop"
+        Me.Desktop.Size = New System.Drawing.Size(189, 81)
+        Me.Desktop.TabIndex = 12
+        Me.Desktop.Text = "Desktop"
+        Me.Desktop.UseVisualStyleBackColor = True
         '
-        'FivetoThousand
+        'Laptop
         '
-        Me.FivetoThousand.Font = New System.Drawing.Font("Modern No. 20", 20.25!)
-        Me.FivetoThousand.Location = New System.Drawing.Point(311, 246)
-        Me.FivetoThousand.Name = "FivetoThousand"
-        Me.FivetoThousand.Size = New System.Drawing.Size(189, 81)
-        Me.FivetoThousand.TabIndex = 9
-        Me.FivetoThousand.Text = "500 to 1000"
-        Me.FivetoThousand.UseVisualStyleBackColor = True
-        '
-        'OverAThousand
-        '
-        Me.OverAThousand.Font = New System.Drawing.Font("Modern No. 20", 20.25!)
-        Me.OverAThousand.Location = New System.Drawing.Point(556, 246)
-        Me.OverAThousand.Name = "OverAThousand"
-        Me.OverAThousand.Size = New System.Drawing.Size(189, 81)
-        Me.OverAThousand.TabIndex = 10
-        Me.OverAThousand.Text = "Over 1000"
-        Me.OverAThousand.UseVisualStyleBackColor = True
+        Me.Laptop.Font = New System.Drawing.Font("Modern No. 20", 20.25!)
+        Me.Laptop.Location = New System.Drawing.Point(404, 239)
+        Me.Laptop.Name = "Laptop"
+        Me.Laptop.Size = New System.Drawing.Size(189, 81)
+        Me.Laptop.TabIndex = 13
+        Me.Laptop.Text = "Laptop"
+        Me.Laptop.UseVisualStyleBackColor = True
         '
         'Title
         '
         Me.Title.AutoSize = True
         Me.Title.Font = New System.Drawing.Font("Modern No. 20", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Title.Location = New System.Drawing.Point(142, 9)
+        Me.Title.Location = New System.Drawing.Point(127, 9)
         Me.Title.Name = "Title"
         Me.Title.Size = New System.Drawing.Size(549, 50)
-        Me.Title.TabIndex = 11
+        Me.Title.TabIndex = 14
         Me.Title.Text = "Computer Selection Sevice"
         '
         'Button3
@@ -91,7 +80,7 @@ Partial Class ProfessionalForm1
         Me.Button3.Location = New System.Drawing.Point(698, 395)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(90, 43)
-        Me.Button3.TabIndex = 12
+        Me.Button3.TabIndex = 15
         Me.Button3.Text = "Quit"
         Me.Button3.UseVisualStyleBackColor = False
         '
@@ -104,11 +93,11 @@ Partial Class ProfessionalForm1
         Me.Button1.Location = New System.Drawing.Point(12, 395)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(90, 43)
-        Me.Button1.TabIndex = 13
+        Me.Button1.TabIndex = 16
         Me.Button1.Text = "Home"
         Me.Button1.UseVisualStyleBackColor = False
         '
-        'ProfessionalForm1
+        'ProfessionalForm2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -116,21 +105,19 @@ Partial Class ProfessionalForm1
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Title)
-        Me.Controls.Add(Me.OverAThousand)
-        Me.Controls.Add(Me.FivetoThousand)
-        Me.Controls.Add(Me.Lessthan500)
+        Me.Controls.Add(Me.Laptop)
+        Me.Controls.Add(Me.Desktop)
         Me.Controls.Add(Me.Label3)
-        Me.Name = "ProfessionalForm1"
-        Me.Text = "ProfessionalForm1"
+        Me.Name = "ProfessionalForm2"
+        Me.Text = "ProfessionalForm2"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
     Friend WithEvents Label3 As Label
-    Friend WithEvents Lessthan500 As Button
-    Friend WithEvents FivetoThousand As Button
-    Friend WithEvents OverAThousand As Button
+    Friend WithEvents Desktop As Button
+    Friend WithEvents Laptop As Button
     Friend WithEvents Title As Label
     Friend WithEvents Button3 As Button
     Friend WithEvents Button1 As Button
