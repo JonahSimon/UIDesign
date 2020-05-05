@@ -17,4 +17,8 @@ Public Class GamingForm3
         frm.Show()
         Me.Close()
     End Sub
+
+    Private Sub GamingForm3_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class

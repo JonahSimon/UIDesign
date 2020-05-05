@@ -25,7 +25,4 @@ Public Class GamingForm1
         Me.Hide()
     End Sub
 
-    Private Sub GamingForm1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-    End Sub
 End Class

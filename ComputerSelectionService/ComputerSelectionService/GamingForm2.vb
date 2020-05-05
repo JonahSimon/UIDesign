@@ -18,7 +18,5 @@ Public Class GamingForm2
         Me.Close()
     End Sub
 
-    Private Sub GamingForm2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-    End Sub
 End Class

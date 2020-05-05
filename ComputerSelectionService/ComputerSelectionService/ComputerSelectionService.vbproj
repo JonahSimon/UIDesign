@@ -173,5 +173,18 @@
     </None>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="pictures\1000+CasualDesktop.jpg" />
+    <Content Include="pictures\1000+CasualLaptop.jpg" />
+    <Content Include="pictures\1000+CompDesktop.jpg" />
+    <Content Include="pictures\1000+CompLaptop.jpg" />
+    <Content Include="pictures\500-1000CasualDesktop.jpg" />
+    <Content Include="pictures\500-1000CasualLaptop.jpg" />
+    <Content Include="pictures\500-1000CompDesktop.jpg" />
+    <Content Include="pictures\500-1000CompLaptop.jpg" />
+    <Content Include="pictures\500CasualLaptop.jpg" />
+    <Content Include="pictures\500CompLaptop.jpg" />
+    <Content Include="pictures\500GamingDesktop.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
