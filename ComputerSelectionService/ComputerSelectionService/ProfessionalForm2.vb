@@ -3,13 +3,13 @@
 Public Class ProfessionalForm2
     Private Sub Desktop_Click(sender As Object, e As EventArgs) Handles Desktop.Click
         DesktopOrLaptop = "Desktop"
-        ProfessionalFrom3.Show()
+        ProfessionalForm3.Show()
         Me.Hide()
     End Sub
 
     Private Sub Laptop_Click(sender As Object, e As EventArgs) Handles Laptop.Click
         DesktopOrLaptop = "Laptop"
-        ProfessionalFrom3.Show()
+        ProfessionalForm3.Show()
         Me.Hide()
     End Sub
 
