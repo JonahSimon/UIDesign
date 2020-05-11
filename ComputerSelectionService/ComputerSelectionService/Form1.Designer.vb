@@ -69,7 +69,7 @@ Partial Class StartupPage
         Me.Consumer.Name = "Consumer"
         Me.Consumer.Size = New System.Drawing.Size(189, 81)
         Me.Consumer.TabIndex = 3
-        Me.Consumer.Text = "Consumer Computer"
+        Me.Consumer.Text = "Casual Computer"
         Me.Consumer.UseVisualStyleBackColor = False
         '
         'Label1

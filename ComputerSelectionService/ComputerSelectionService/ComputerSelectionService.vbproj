@@ -79,11 +79,23 @@
     <Compile Include="ConsumerForm1.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ConsumerForm3.Designer.vb">
+      <DependentUpon>ConsumerForm3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ConsumerForm3.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsumerForm2.Designer.vb">
+      <DependentUpon>ConsumerForm2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ConsumerForm2.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GamingForm2.Designer.vb">
@@ -125,6 +137,30 @@
     <Compile Include="ProfessionalForm1.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ProfessionalForm2.Designer.vb">
+      <DependentUpon>ProfessionalForm2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ProfessionalForm2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProfessionalForm3.Designer.vb">
+      <DependentUpon>ProfessionalForm3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ProfessionalForm3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProfessionalSelections.Designer.vb">
+      <DependentUpon>ProfessionalSelections.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ProfessionalSelections.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectionConsumer.Designer.vb">
+      <DependentUpon>SelectionConsumer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SelectionConsumer.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="YourSelections.Designer.vb">
       <DependentUpon>YourSelections.vb</DependentUpon>
     </Compile>
@@ -135,6 +171,12 @@
   <ItemGroup>
     <EmbeddedResource Include="ConsumerForm1.resx">
       <DependentUpon>ConsumerForm1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsumerForm2.resx">
+      <DependentUpon>ConsumerForm2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsumerForm3.resx">
+      <DependentUpon>ConsumerForm3.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
@@ -156,6 +198,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ProfessionalForm1.resx">
       <DependentUpon>ProfessionalForm1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProfessionalForm2.resx">
+      <DependentUpon>ProfessionalForm2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProfessionalForm3.resx">
+      <DependentUpon>ProfessionalForm3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProfessionalSelections.resx">
+      <DependentUpon>ProfessionalSelections.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectionConsumer.resx">
+      <DependentUpon>SelectionConsumer.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="YourSelections.resx">
       <DependentUpon>YourSelections.vb</DependentUpon>

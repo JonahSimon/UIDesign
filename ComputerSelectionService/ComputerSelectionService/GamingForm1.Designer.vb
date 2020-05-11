@@ -26,8 +26,6 @@ Partial Class GamingForm1
         Me.Lessthan500 = New System.Windows.Forms.Button()
         Me.FivetoThousand = New System.Windows.Forms.Button()
         Me.OverAThousand = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
@@ -71,24 +69,6 @@ Partial Class GamingForm1
         Me.OverAThousand.Text = "Over 1000"
         Me.OverAThousand.UseVisualStyleBackColor = True
         '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(0, 0)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(39, 13)
-        Me.Label1.TabIndex = 4
-        Me.Label1.Text = "Label1"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(0, 0)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(39, 13)
-        Me.Label2.TabIndex = 5
-        Me.Label2.Text = "Label2"
-        '
         'Label3
         '
         Me.Label3.AutoSize = True
@@ -106,8 +86,6 @@ Partial Class GamingForm1
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.ClientSize = New System.Drawing.Size(906, 504)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.OverAThousand)
         Me.Controls.Add(Me.FivetoThousand)
         Me.Controls.Add(Me.Lessthan500)
@@ -123,7 +101,5 @@ Partial Class GamingForm1
     Friend WithEvents Lessthan500 As Button
     Friend WithEvents FivetoThousand As Button
     Friend WithEvents OverAThousand As Button
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
 End Class

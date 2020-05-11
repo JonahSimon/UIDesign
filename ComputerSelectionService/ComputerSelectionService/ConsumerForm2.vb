@@ -1,24 +1,25 @@
-﻿Imports ComputerSelectionService.GamingVariables
-Public Class GamingForm2
+﻿Imports ComputerSelectionService.ConsumerVariables
+
+Public Class ConsumerForm2
+    Private Sub ConsumerForm2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Me.FormBorderStyle = Windows.Forms.FormBorderStyle.None
+        Me.WindowState = FormWindowState.Maximized
+    End Sub
     Private Sub Desktop_Click(sender As Object, e As EventArgs) Handles Desktop.Click
         DesktopOrLaptop = "Desktop"
-        GamingForm3.Show()
+        ConsumerForm3.Show()
         Me.Hide()
     End Sub
 
     Private Sub Laptop_Click(sender As Object, e As EventArgs) Handles Laptop.Click
         DesktopOrLaptop = "Laptop"
-        GamingForm3.Show()
+        ConsumerForm3.Show()
         Me.Hide()
     End Sub
 
     Private Sub HomeButton_Click(sender As Object, e As EventArgs) Handles HomeButton.Click
-        Dim frm = New StartupPage               '' Change the class name if necessary
+        Dim frm = New StartupPage
         frm.Show()
         Me.Close()
-    End Sub
-
-    Private Sub GamingForm2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
     End Sub
 End Class

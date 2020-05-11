@@ -1,5 +1,5 @@
 ﻿Imports ComputerSelectionService.ProfessionalVariables
-Public Class ProfessionalFrom3
+Public Class ProfessionalForm3
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         GraphicOrData = "Data Entry"
         ProfessionalSelections.Show()

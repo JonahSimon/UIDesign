@@ -1,5 +1,7 @@
 ﻿Imports ComputerSelectionService.GamingVariables
 Imports ComputerSelectionService.ProfessionalVariables
+Imports ComputerSelectionService.ConsumerVariables
+
 Public Class StartupPage
 
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
@@ -13,6 +15,7 @@ Public Class StartupPage
     End Sub
 
     Private Sub Consumer_Click(sender As Object, e As EventArgs) Handles Consumer.Click
+        Typingcomputer = "Consumer"
         ConsumerForm1.Show()
         Me.Hide()
     End Sub
@@ -41,5 +44,12 @@ Public Class ProfessionalVariables
     Public Shared PriceRange As String
     Public Shared DesktopOrLaptop As String
     Public Shared GraphicOrData As String
+
+End Class
+Public Class ConsumerVariables
+    Public Shared Typingcomputer As String
+    Public Shared PriceRange As String
+    Public Shared DesktopOrLaptop As String
+    Public Shared CasualOrCompetitive As String
 
 End Class
