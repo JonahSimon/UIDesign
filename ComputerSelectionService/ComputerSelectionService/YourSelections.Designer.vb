@@ -30,6 +30,8 @@ Partial Class YourSelections
         Me.CompCasual = New System.Windows.Forms.Label()
         Me.DeskOrLap = New System.Windows.Forms.Label()
         Me.ChosenDevice = New System.Windows.Forms.PictureBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.YourComputerName = New System.Windows.Forms.Label()
         CType(Me.ChosenDevice, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -95,18 +97,39 @@ Partial Class YourSelections
         'ChosenDevice
         '
         Me.ChosenDevice.Image = CType(resources.GetObject("ChosenDevice.Image"), System.Drawing.Image)
-        Me.ChosenDevice.Location = New System.Drawing.Point(295, 244)
+        Me.ChosenDevice.Location = New System.Drawing.Point(305, 239)
         Me.ChosenDevice.Name = "ChosenDevice"
         Me.ChosenDevice.Size = New System.Drawing.Size(281, 189)
         Me.ChosenDevice.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.ChosenDevice.TabIndex = 23
         Me.ChosenDevice.TabStop = False
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(0, 0)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(39, 13)
+        Me.Label1.TabIndex = 24
+        Me.Label1.Text = "Label1"
+        '
+        'YourComputerName
+        '
+        Me.YourComputerName.AutoSize = True
+        Me.YourComputerName.Font = New System.Drawing.Font("Modern No. 20", 20.25!)
+        Me.YourComputerName.Location = New System.Drawing.Point(368, 431)
+        Me.YourComputerName.Name = "YourComputerName"
+        Me.YourComputerName.Size = New System.Drawing.Size(175, 29)
+        Me.YourComputerName.TabIndex = 25
+        Me.YourComputerName.Text = "YourComputer"
+        '
         'YourSelections
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(906, 504)
+        Me.Controls.Add(Me.YourComputerName)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.ChosenDevice)
         Me.Controls.Add(Me.DeskOrLap)
         Me.Controls.Add(Me.CompCasual)
@@ -129,4 +152,6 @@ Partial Class YourSelections
     Friend WithEvents CompCasual As Label
     Friend WithEvents DeskOrLap As Label
     Friend WithEvents ChosenDevice As PictureBox
+    Friend WithEvents Label1 As Label
+    Friend WithEvents YourComputerName As Label
 End Class

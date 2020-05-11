@@ -1,0 +1,16 @@
+C:\Users\Jonah Simon\Desktop\School\Classes\UIDesign\Final\UIDesign\ComputerSelectionService\ComputerSelectionService\bin\Release\ComputerSelectionService.exe.config
+C:\Users\Jonah Simon\Desktop\School\Classes\UIDesign\Final\UIDesign\ComputerSelectionService\ComputerSelectionService\bin\Release\ComputerSelectionService.exe
+C:\Users\Jonah Simon\Desktop\School\Classes\UIDesign\Final\UIDesign\ComputerSelectionService\ComputerSelectionService\bin\Release\ComputerSelectionService.pdb
+C:\Users\Jonah Simon\Desktop\School\Classes\UIDesign\Final\UIDesign\ComputerSelectionService\ComputerSelectionService\bin\Release\ComputerSelectionService.xml
+C:\Users\Jonah Simon\Desktop\School\Classes\UIDesign\Final\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Release\ComputerSelectionService.ConsumerForm1.resources
+C:\Users\Jonah Simon\Desktop\School\Classes\UIDesign\Final\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Release\ComputerSelectionService.StartupPage.resources
+C:\Users\Jonah Simon\Desktop\School\Classes\UIDesign\Final\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Release\ComputerSelectionService.GamingForm1.resources
+C:\Users\Jonah Simon\Desktop\School\Classes\UIDesign\Final\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Release\ComputerSelectionService.GamingForm2.resources
+C:\Users\Jonah Simon\Desktop\School\Classes\UIDesign\Final\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Release\ComputerSelectionService.GamingForm3.resources
+C:\Users\Jonah Simon\Desktop\School\Classes\UIDesign\Final\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Release\ComputerSelectionService.Resources.resources
+C:\Users\Jonah Simon\Desktop\School\Classes\UIDesign\Final\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Release\ComputerSelectionService.ProfessionalForm1.resources
+C:\Users\Jonah Simon\Desktop\School\Classes\UIDesign\Final\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Release\ComputerSelectionService.YourSelections.resources
+C:\Users\Jonah Simon\Desktop\School\Classes\UIDesign\Final\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Release\ComputerSelectionService.vbproj.GenerateResource.cache
+C:\Users\Jonah Simon\Desktop\School\Classes\UIDesign\Final\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Release\ComputerSelectionService.exe
+C:\Users\Jonah Simon\Desktop\School\Classes\UIDesign\Final\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Release\ComputerSelectionService.xml
+C:\Users\Jonah Simon\Desktop\School\Classes\UIDesign\Final\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Release\ComputerSelectionService.pdb

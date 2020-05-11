@@ -2,8 +2,6 @@
 
 Public Class ConsumerForm2
     Private Sub ConsumerForm2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Me.FormBorderStyle = Windows.Forms.FormBorderStyle.None
-        Me.WindowState = FormWindowState.Maximized
     End Sub
     Private Sub Desktop_Click(sender As Object, e As EventArgs) Handles Desktop.Click
         DesktopOrLaptop = "Desktop"

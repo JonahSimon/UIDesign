@@ -16,7 +16,6 @@ C:\Users\Jonah Simon\Desktop\School\Classes\UIDesign\Final\UIDesign\ComputerSele
 C:\Users\Jonah Simon\Desktop\School\Classes\UIDesign\Final\UIDesign\ComputerSelectionService\ComputerSelectionService\bin\Debug\ComputerSelectionService.exe
 C:\Users\Jonah Simon\Desktop\School\Classes\UIDesign\Final\UIDesign\ComputerSelectionService\ComputerSelectionService\bin\Debug\ComputerSelectionService.pdb
 C:\Users\Jonah Simon\Desktop\School\Classes\UIDesign\Final\UIDesign\ComputerSelectionService\ComputerSelectionService\bin\Debug\ComputerSelectionService.xml
-C:\Users\Jonah Simon\Desktop\School\Classes\UIDesign\Final\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Debug\ComputerSelectionService.vbprojAssemblyReference.cache
 C:\Users\Jonah Simon\Desktop\School\Classes\UIDesign\Final\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Debug\ComputerSelectionService.ConsumerForm1.resources
 C:\Users\Jonah Simon\Desktop\School\Classes\UIDesign\Final\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Debug\ComputerSelectionService.StartupPage.resources
 C:\Users\Jonah Simon\Desktop\School\Classes\UIDesign\Final\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Debug\ComputerSelectionService.GamingForm1.resources
@@ -53,3 +52,10 @@ C:\Users\007sw\Source\Repos\JonahSimon\UIDesign\ComputerSelectionService\Compute
 C:\Users\007sw\Source\Repos\JonahSimon\UIDesign\ComputerSelectionService\ComputerSelectionService\bin\Debug\ComputerSelectionService.pdb
 C:\Users\007sw\Source\Repos\JonahSimon\UIDesign\ComputerSelectionService\ComputerSelectionService\bin\Debug\ComputerSelectionService.xml
 C:\Users\007sw\Source\Repos\JonahSimon\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Debug\ComputerSelectionService.ProfessionalForm3.resources
+C:\Users\Jonah Simon\Desktop\School\Classes\UIDesign\Final\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Debug\ComputerSelectionService.ConsumerForm2.resources
+C:\Users\Jonah Simon\Desktop\School\Classes\UIDesign\Final\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Debug\ComputerSelectionService.ConsumerForm3.resources
+C:\Users\Jonah Simon\Desktop\School\Classes\UIDesign\Final\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Debug\ComputerSelectionService.ProfessionalForm2.resources
+C:\Users\Jonah Simon\Desktop\School\Classes\UIDesign\Final\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Debug\ComputerSelectionService.ProfessionalForm3.resources
+C:\Users\Jonah Simon\Desktop\School\Classes\UIDesign\Final\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Debug\ComputerSelectionService.ProfessionalSelections.resources
+C:\Users\Jonah Simon\Desktop\School\Classes\UIDesign\Final\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Debug\ComputerSelectionService.SelectionConsumer.resources
+C:\Users\Jonah Simon\Desktop\School\Classes\UIDesign\Final\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Debug\ComputerSelectionService.vbprojAssemblyReference.cache

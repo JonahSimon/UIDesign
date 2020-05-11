@@ -3,8 +3,6 @@
 Public Class ConsumerForm3
 
     Private Sub ConsumerForm3_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Me.FormBorderStyle = Windows.Forms.FormBorderStyle.None
-        Me.WindowState = FormWindowState.Maximized
     End Sub
 
     Private Sub Casual_Click(sender As Object, e As EventArgs) Handles Casual.Click

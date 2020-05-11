@@ -24,4 +24,8 @@ Public Class ConsumerForm1
         ConsumerForm2.Show()
         Me.Hide()
     End Sub
+
+    Private Sub ConsumerForm1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class
