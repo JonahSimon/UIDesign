@@ -172,6 +172,7 @@ Partial Class SelectionConsumer
         Me.Controls.Add(Me.CompCasual)
         Me.Controls.Add(Me.Price)
         Me.Controls.Add(Me.ComputerType)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "SelectionConsumer"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "CSS Selections"

@@ -172,9 +172,10 @@ Partial Class YourSelections
         Me.Controls.Add(Me.Price)
         Me.Controls.Add(Me.ComputerType)
         Me.Controls.Add(Me.Label3)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "YourSelections"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "YourSelections"
+        Me.Text = "CSS Selections"
         CType(Me.ChosenDevice, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()

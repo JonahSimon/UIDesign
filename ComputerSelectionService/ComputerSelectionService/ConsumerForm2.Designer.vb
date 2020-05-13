@@ -22,6 +22,7 @@ Partial Class ConsumerForm2
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ConsumerForm2))
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Laptop = New System.Windows.Forms.Button()
         Me.Desktop = New System.Windows.Forms.Button()
@@ -127,6 +128,7 @@ Partial Class ConsumerForm2
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Laptop)
         Me.Controls.Add(Me.Desktop)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "ConsumerForm2"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "CSS Personal"
