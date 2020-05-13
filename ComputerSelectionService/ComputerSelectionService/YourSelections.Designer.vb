@@ -173,6 +173,7 @@ Partial Class YourSelections
         Me.Controls.Add(Me.ComputerType)
         Me.Controls.Add(Me.Label3)
         Me.Name = "YourSelections"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "YourSelections"
         CType(Me.ChosenDevice, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)

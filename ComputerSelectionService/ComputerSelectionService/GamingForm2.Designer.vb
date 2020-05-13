@@ -128,6 +128,7 @@ Partial Class GamingForm2
         Me.Controls.Add(Me.Laptop)
         Me.Controls.Add(Me.Desktop)
         Me.Name = "GamingForm2"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "GamingForm2"
         Me.ResumeLayout(False)
         Me.PerformLayout()

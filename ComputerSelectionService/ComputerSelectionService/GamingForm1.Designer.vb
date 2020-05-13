@@ -29,6 +29,7 @@ Partial Class GamingForm1
         Me.Title = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Lessthan500
@@ -114,12 +115,25 @@ Partial Class GamingForm1
         Me.Button3.Text = "Quit"
         Me.Button3.UseVisualStyleBackColor = False
         '
+        'Button4
+        '
+        Me.Button4.BackColor = System.Drawing.Color.SlateBlue
+        Me.Button4.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Button4.Location = New System.Drawing.Point(12, 388)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(90, 49)
+        Me.Button4.TabIndex = 20
+        Me.Button4.Text = "Back"
+        Me.Button4.UseVisualStyleBackColor = False
+        '
         'GamingForm1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.ClientSize = New System.Drawing.Size(906, 504)
+        Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Title)
@@ -128,6 +142,7 @@ Partial Class GamingForm1
         Me.Controls.Add(Me.FivetoThousand)
         Me.Controls.Add(Me.Lessthan500)
         Me.Name = "GamingForm1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "GamingForm1"
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -140,4 +155,5 @@ Partial Class GamingForm1
     Friend WithEvents Title As Label
     Friend WithEvents Button1 As Button
     Friend WithEvents Button3 As Button
+    Friend WithEvents Button4 As Button
 End Class

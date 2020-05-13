@@ -9,7 +9,7 @@ Public Class YourSelections
 
         If Price.Text = "less than 500" And DeskOrLap.Text = "Desktop" Then
             ChosenDevice.Image = ComputerSelectionService.My.Resources._500GamingDesktop
-            YourComputerName.Text = "Tada"
+            YourComputerName.Text = "JK 12"
         End If
         If Price.Text = "less than 500" And DeskOrLap.Text = "Laptop" And CompCasual.Text = "Competitive" Then
             ChosenDevice.Image = ComputerSelectionService.My.Resources._500CompLaptop
@@ -51,14 +51,6 @@ Public Class YourSelections
             ChosenDevice.Image = ComputerSelectionService.My.Resources._1000_CasualLaptop
             YourComputerName.Text = "YOLO BOI 45"
         End If
-
-
-        TypeOfComputer = " "
-        PriceRange = 0
-        DesktopOrLaptop = " "
-        CasualOrCompetitive = " "
-
-
     End Sub
 
     Private Sub HomeButton_Click(sender As Object, e As EventArgs)
@@ -77,17 +69,6 @@ Public Class YourSelections
         Application.Exit()
     End Sub
 
-    Private Sub DeskOrLap_Click(sender As Object, e As EventArgs) Handles DeskOrLap.Click
-
-    End Sub
-
-    Private Sub CompCasual_Click(sender As Object, e As EventArgs) Handles CompCasual.Click
-
-    End Sub
-
-    Private Sub Price_Click(sender As Object, e As EventArgs) Handles Price.Click
-
-    End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         Dim frmC1 = New GamingForm3
