@@ -22,6 +22,7 @@ Partial Class GamingForm1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(GamingForm1))
         Me.Lessthan500 = New System.Windows.Forms.Button()
         Me.FivetoThousand = New System.Windows.Forms.Button()
         Me.OverAThousand = New System.Windows.Forms.Button()
@@ -141,9 +142,10 @@ Partial Class GamingForm1
         Me.Controls.Add(Me.OverAThousand)
         Me.Controls.Add(Me.FivetoThousand)
         Me.Controls.Add(Me.Lessthan500)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "GamingForm1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "GamingForm1"
+        Me.Text = "CSS Gaming"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

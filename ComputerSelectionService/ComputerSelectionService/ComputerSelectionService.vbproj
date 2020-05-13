@@ -232,6 +232,7 @@
     <Content Include="pictures\1000+CasualLaptop.jpg" />
     <Content Include="pictures\1000+CompDesktop.jpg" />
     <Content Include="pictures\1000+CompLaptop.jpg" />
+    <None Include="pictures\Icon.png" />
     <None Include="pictures\Icon.ico" />
     <None Include="pictures\1000+DataDesktop.jpg" />
     <None Include="pictures\1000+DataLaptop.jpg" />

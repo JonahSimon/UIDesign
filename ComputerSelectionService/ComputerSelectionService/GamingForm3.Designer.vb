@@ -22,6 +22,7 @@ Partial Class GamingForm3
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(GamingForm3))
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Competitive = New System.Windows.Forms.Button()
         Me.Casual = New System.Windows.Forms.Button()
@@ -127,9 +128,10 @@ Partial Class GamingForm3
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Competitive)
         Me.Controls.Add(Me.Casual)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "GamingForm3"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "GamingForm3"
+        Me.Text = "CSS Gaming"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
