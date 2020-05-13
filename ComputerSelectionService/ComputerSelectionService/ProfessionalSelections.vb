@@ -52,13 +52,6 @@ Public Class ProfessionalSelections
             YourComputerName.Text = "Paper Pusher 5000"
         End If
 
-
-        TypeComputer = " "
-        PriceRange = 0
-        DesktopOrLaptop = " "
-        GraphicOrData = " "
-
-
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
