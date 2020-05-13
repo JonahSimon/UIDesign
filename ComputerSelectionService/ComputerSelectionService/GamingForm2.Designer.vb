@@ -78,7 +78,7 @@ Partial Class GamingForm2
         Me.Controls.Add(Me.Laptop)
         Me.Controls.Add(Me.Desktop)
         Me.Name = "GamingForm2"
-        Me.Text = "Form2"
+        Me.Text = "GamingForm2"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

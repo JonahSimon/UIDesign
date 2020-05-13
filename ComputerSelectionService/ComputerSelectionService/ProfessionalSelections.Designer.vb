@@ -124,7 +124,7 @@ Partial Class ProfessionalSelections
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(906, 504)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.ChosenDevice)
@@ -134,6 +134,7 @@ Partial Class ProfessionalSelections
         Me.Controls.Add(Me.ComputerType)
         Me.Controls.Add(Me.Label3)
         Me.Name = "ProfessionalSelections"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "CSS Selections"
         CType(Me.ChosenDevice, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)

@@ -5,7 +5,7 @@ Public Class SelectionConsumer
         ComputerType.Text = ConsumerVariables.Typingcomputer
         Price.Text = ConsumerVariables.PriceRange
         DeskOrLap.Text = ConsumerVariables.DesktopOrLaptop
-        CompCasual.Text = ConsumerVariables.CasualOrCompetitive
+        CompCasual.Text = ConsumerVariables.EntertainmentOrEducation
 
         If Price.Text = "less than 500" And DeskOrLap.Text = "Desktop" Then ChosenDevice.Image = ComputerSelectionService.My.Resources._500GamingDesktop
         If Price.Text = "less than 500" And DeskOrLap.Text = "Laptop" And CompCasual.Text = "Education" Then ChosenDevice.Image = ComputerSelectionService.My.Resources._500CompLaptop
@@ -20,12 +20,6 @@ Public Class SelectionConsumer
         If Price.Text = "Over 1000" And DeskOrLap.Text = "Laptop" And CompCasual.Text = "Entertainment" Then ChosenDevice.Image = ComputerSelectionService.My.Resources._1000_CasualLaptop
 
 
-        Typingcomputer = " "
-        PriceRange = 0
-        DesktopOrLaptop = " "
-        CasualOrCompetitive = " "
-
-
     End Sub
 
     Private Sub HomeButton_Click(sender As Object, e As EventArgs) Handles HomeButton.Click
@@ -33,5 +27,16 @@ Public Class SelectionConsumer
         frm.Show()
         Me.Close()
     End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        Dim frmC3 = New ConsumerForm3
+        frmC3.Show()
+        Me.Close()
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Application.Exit()
+    End Sub
+
 
 End Class

@@ -59,3 +59,27 @@ C:\Users\Jonah Simon\Desktop\School\Classes\UIDesign\Final\UIDesign\ComputerSele
 C:\Users\Jonah Simon\Desktop\School\Classes\UIDesign\Final\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Debug\ComputerSelectionService.ProfessionalSelections.resources
 C:\Users\Jonah Simon\Desktop\School\Classes\UIDesign\Final\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Debug\ComputerSelectionService.SelectionConsumer.resources
 C:\Users\Jonah Simon\Desktop\School\Classes\UIDesign\Final\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Debug\ComputerSelectionService.vbprojAssemblyReference.cache
+C:\Users\007sw\Source\Repos\UIDesign\ComputerSelectionService\ComputerSelectionService\bin\Debug\ComputerSelectionService.exe.config
+C:\Users\007sw\Source\Repos\UIDesign\ComputerSelectionService\ComputerSelectionService\bin\Debug\ComputerSelectionService.exe
+C:\Users\007sw\Source\Repos\UIDesign\ComputerSelectionService\ComputerSelectionService\bin\Debug\ComputerSelectionService.pdb
+C:\Users\007sw\Source\Repos\UIDesign\ComputerSelectionService\ComputerSelectionService\bin\Debug\ComputerSelectionService.xml
+C:\Users\007sw\Source\Repos\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Debug\ComputerSelectionService.vbprojAssemblyReference.cache
+C:\Users\007sw\Source\Repos\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Debug\ComputerSelectionService.ConsumerForm1.resources
+C:\Users\007sw\Source\Repos\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Debug\ComputerSelectionService.ConsumerForm2.resources
+C:\Users\007sw\Source\Repos\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Debug\ComputerSelectionService.ConsumerForm3.resources
+C:\Users\007sw\Source\Repos\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Debug\ComputerSelectionService.StartupPage.resources
+C:\Users\007sw\Source\Repos\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Debug\ComputerSelectionService.GamingForm1.resources
+C:\Users\007sw\Source\Repos\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Debug\ComputerSelectionService.GamingForm2.resources
+C:\Users\007sw\Source\Repos\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Debug\ComputerSelectionService.GamingForm3.resources
+C:\Users\007sw\Source\Repos\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Debug\ComputerSelectionService.Resources.resources
+C:\Users\007sw\Source\Repos\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Debug\ComputerSelectionService.ProfessionalForm1.resources
+C:\Users\007sw\Source\Repos\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Debug\ComputerSelectionService.ProfessionalForm2.resources
+C:\Users\007sw\Source\Repos\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Debug\ComputerSelectionService.ProfessionalForm3.resources
+C:\Users\007sw\Source\Repos\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Debug\ComputerSelectionService.ProfessionalSelections.resources
+C:\Users\007sw\Source\Repos\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Debug\ComputerSelectionService.SelectionConsumer.resources
+C:\Users\007sw\Source\Repos\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Debug\ComputerSelectionService.YourSelections.resources
+C:\Users\007sw\Source\Repos\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Debug\ComputerSelectionService.vbproj.GenerateResource.cache
+C:\Users\007sw\Source\Repos\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Debug\ComputerSelectionService.vbproj.CoreCompileInputs.cache
+C:\Users\007sw\Source\Repos\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Debug\ComputerSelectionService.exe
+C:\Users\007sw\Source\Repos\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Debug\ComputerSelectionService.xml
+C:\Users\007sw\Source\Repos\UIDesign\ComputerSelectionService\ComputerSelectionService\obj\Debug\ComputerSelectionService.pdb

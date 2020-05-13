@@ -93,6 +93,7 @@ Partial Class StartupPage
         Me.Controls.Add(Me.Profesional)
         Me.Controls.Add(Me.Title)
         Me.Name = "StartupPage"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
         Me.ResumeLayout(False)
         Me.PerformLayout()

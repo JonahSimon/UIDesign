@@ -112,7 +112,7 @@ Partial Class ProfessionalForm1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(906, 504)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Title)
@@ -121,6 +121,7 @@ Partial Class ProfessionalForm1
         Me.Controls.Add(Me.Lessthan500)
         Me.Controls.Add(Me.Label3)
         Me.Name = "ProfessionalForm1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "ProfessionalForm1"
         Me.ResumeLayout(False)
         Me.PerformLayout()

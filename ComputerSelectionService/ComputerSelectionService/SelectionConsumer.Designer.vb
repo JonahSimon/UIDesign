@@ -30,6 +30,9 @@ Partial Class SelectionConsumer
         Me.ComputerType = New System.Windows.Forms.Label()
         Me.HomeButton = New System.Windows.Forms.Button()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Title = New System.Windows.Forms.Label()
         CType(Me.ChosenDevice, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -47,7 +50,7 @@ Partial Class SelectionConsumer
         '
         Me.DeskOrLap.AutoSize = True
         Me.DeskOrLap.Font = New System.Drawing.Font("Modern No. 20", 20.25!)
-        Me.DeskOrLap.Location = New System.Drawing.Point(454, 173)
+        Me.DeskOrLap.Location = New System.Drawing.Point(347, 173)
         Me.DeskOrLap.Name = "DeskOrLap"
         Me.DeskOrLap.Size = New System.Drawing.Size(205, 29)
         Me.DeskOrLap.TabIndex = 29
@@ -57,17 +60,17 @@ Partial Class SelectionConsumer
         '
         Me.CompCasual.AutoSize = True
         Me.CompCasual.Font = New System.Drawing.Font("Modern No. 20", 20.25!)
-        Me.CompCasual.Location = New System.Drawing.Point(714, 173)
+        Me.CompCasual.Location = New System.Drawing.Point(597, 173)
         Me.CompCasual.Name = "CompCasual"
-        Me.CompCasual.Size = New System.Drawing.Size(151, 29)
+        Me.CompCasual.Size = New System.Drawing.Size(273, 29)
         Me.CompCasual.TabIndex = 28
-        Me.CompCasual.Text = "EnterOrEdu"
+        Me.CompCasual.Text = "RecrationOrEducatioin"
         '
         'Price
         '
         Me.Price.AutoSize = True
         Me.Price.Font = New System.Drawing.Font("Modern No. 20", 20.25!)
-        Me.Price.Location = New System.Drawing.Point(218, 173)
+        Me.Price.Location = New System.Drawing.Point(163, 173)
         Me.Price.Name = "Price"
         Me.Price.Size = New System.Drawing.Size(72, 29)
         Me.Price.TabIndex = 27
@@ -85,7 +88,7 @@ Partial Class SelectionConsumer
         '
         'HomeButton
         '
-        Me.HomeButton.Location = New System.Drawing.Point(26, 373)
+        Me.HomeButton.Location = New System.Drawing.Point(25, 469)
         Me.HomeButton.Name = "HomeButton"
         Me.HomeButton.Size = New System.Drawing.Size(75, 23)
         Me.HomeButton.TabIndex = 25
@@ -96,17 +99,48 @@ Partial Class SelectionConsumer
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Modern No. 20", 26.25!, System.Drawing.FontStyle.Bold)
-        Me.Label3.Location = New System.Drawing.Point(320, 70)
+        Me.Label3.Location = New System.Drawing.Point(319, 95)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(252, 36)
+        Me.Label3.Size = New System.Drawing.Size(326, 72)
         Me.Label3.TabIndex = 24
-        Me.Label3.Text = "Your Selections"
+        Me.Label3.Text = "Our Recomendations" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Given:"
+        '
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(352, 469)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(75, 23)
+        Me.Button3.TabIndex = 32
+        Me.Button3.Text = "GoBack"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(783, 469)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.TabIndex = 31
+        Me.Button2.Text = "Exit"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Title
+        '
+        Me.Title.AutoSize = True
+        Me.Title.Font = New System.Drawing.Font("Modern No. 20", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Title.Location = New System.Drawing.Point(173, 31)
+        Me.Title.Name = "Title"
+        Me.Title.Size = New System.Drawing.Size(549, 50)
+        Me.Title.TabIndex = 33
+        Me.Title.Text = "Computer Selection Sevice"
         '
         'SelectionConsumer
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(897, 522)
+        Me.ClientSize = New System.Drawing.Size(906, 504)
+        Me.Controls.Add(Me.Title)
+        Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.ChosenDevice)
         Me.Controls.Add(Me.DeskOrLap)
         Me.Controls.Add(Me.CompCasual)
@@ -115,6 +149,7 @@ Partial Class SelectionConsumer
         Me.Controls.Add(Me.HomeButton)
         Me.Controls.Add(Me.Label3)
         Me.Name = "SelectionConsumer"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "SelectionConsumer"
         CType(Me.ChosenDevice, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
@@ -129,4 +164,7 @@ Partial Class SelectionConsumer
     Friend WithEvents ComputerType As Label
     Friend WithEvents HomeButton As Button
     Friend WithEvents Label3 As Label
+    Friend WithEvents Button3 As Button
+    Friend WithEvents Button2 As Button
+    Friend WithEvents Title As Label
 End Class

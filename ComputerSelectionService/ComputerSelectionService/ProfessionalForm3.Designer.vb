@@ -96,18 +96,19 @@ Partial Class ProfessionalForm3
         Me.Button4.Text = "Home"
         Me.Button4.UseVisualStyleBackColor = False
         '
-        'ProfessionalFrom3
+        'ProfessionalForm3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(906, 504)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Title)
         Me.Controls.Add(Me.Label3)
-        Me.Name = "ProfessionalFrom3"
+        Me.Name = "ProfessionalForm3"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "CSS Professional"
         Me.ResumeLayout(False)
         Me.PerformLayout()
