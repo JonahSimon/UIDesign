@@ -61,11 +61,37 @@ Public Class YourSelections
 
     End Sub
 
-    Private Sub HomeButton_Click(sender As Object, e As EventArgs) Handles HomeButton.Click
+    Private Sub HomeButton_Click(sender As Object, e As EventArgs)
         Dim frm = New StartupPage               '' Change the class name if necessary
         frm.Show()
         Me.Close()
     End Sub
 
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim frm = New StartupPage               '' Change the class name if necessary
+        frm.Show()
+        Me.Close()
+    End Sub
 
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        Application.Exit()
+    End Sub
+
+    Private Sub DeskOrLap_Click(sender As Object, e As EventArgs) Handles DeskOrLap.Click
+
+    End Sub
+
+    Private Sub CompCasual_Click(sender As Object, e As EventArgs) Handles CompCasual.Click
+
+    End Sub
+
+    Private Sub Price_Click(sender As Object, e As EventArgs) Handles Price.Click
+
+    End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        Dim frmC1 = New GamingForm3
+        frmC1.Show()
+        Me.Close()
+    End Sub
 End Class

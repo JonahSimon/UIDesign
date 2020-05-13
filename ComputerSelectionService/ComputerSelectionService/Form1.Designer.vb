@@ -27,13 +27,14 @@ Partial Class StartupPage
         Me.Gaming = New System.Windows.Forms.Button()
         Me.Consumer = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Button3 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Title
         '
         Me.Title.AutoSize = True
         Me.Title.Font = New System.Drawing.Font("Modern No. 20", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Title.Location = New System.Drawing.Point(168, 9)
+        Me.Title.Location = New System.Drawing.Point(184, 1)
         Me.Title.Name = "Title"
         Me.Title.Size = New System.Drawing.Size(549, 50)
         Me.Title.TabIndex = 0
@@ -43,7 +44,8 @@ Partial Class StartupPage
         '
         Me.Profesional.BackColor = System.Drawing.Color.DarkViolet
         Me.Profesional.Font = New System.Drawing.Font("Modern No. 20", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Profesional.Location = New System.Drawing.Point(127, 306)
+        Me.Profesional.ForeColor = System.Drawing.Color.White
+        Me.Profesional.Location = New System.Drawing.Point(143, 298)
         Me.Profesional.Name = "Profesional"
         Me.Profesional.Size = New System.Drawing.Size(189, 81)
         Me.Profesional.TabIndex = 1
@@ -54,7 +56,8 @@ Partial Class StartupPage
         '
         Me.Gaming.BackColor = System.Drawing.Color.DarkViolet
         Me.Gaming.Font = New System.Drawing.Font("Modern No. 20", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Gaming.Location = New System.Drawing.Point(565, 306)
+        Me.Gaming.ForeColor = System.Drawing.Color.White
+        Me.Gaming.Location = New System.Drawing.Point(581, 298)
         Me.Gaming.Name = "Gaming"
         Me.Gaming.Size = New System.Drawing.Size(189, 81)
         Me.Gaming.TabIndex = 2
@@ -65,7 +68,8 @@ Partial Class StartupPage
         '
         Me.Consumer.BackColor = System.Drawing.Color.DarkViolet
         Me.Consumer.Font = New System.Drawing.Font("Modern No. 20", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Consumer.Location = New System.Drawing.Point(346, 306)
+        Me.Consumer.ForeColor = System.Drawing.Color.White
+        Me.Consumer.Location = New System.Drawing.Point(362, 298)
         Me.Consumer.Name = "Consumer"
         Me.Consumer.Size = New System.Drawing.Size(189, 81)
         Me.Consumer.TabIndex = 3
@@ -76,17 +80,31 @@ Partial Class StartupPage
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Modern No. 20", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(105, 176)
+        Me.Label1.Location = New System.Drawing.Point(105, 168)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(710, 36)
         Me.Label1.TabIndex = 4
         Me.Label1.Text = "What kind of computer are you searching for?"
+        '
+        'Button3
+        '
+        Me.Button3.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Button3.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Button3.Location = New System.Drawing.Point(804, 443)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(90, 49)
+        Me.Button3.TabIndex = 15
+        Me.Button3.Text = "Quit"
+        Me.Button3.UseVisualStyleBackColor = False
         '
         'StartupPage
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(906, 504)
+        Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Consumer)
         Me.Controls.Add(Me.Gaming)
@@ -105,4 +123,5 @@ Partial Class StartupPage
     Friend WithEvents Gaming As Button
     Friend WithEvents Consumer As Button
     Friend WithEvents Label1 As Label
+    Friend WithEvents Button3 As Button
 End Class
