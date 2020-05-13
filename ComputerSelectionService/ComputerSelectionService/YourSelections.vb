@@ -94,4 +94,24 @@ Public Class YourSelections
         frmC1.Show()
         Me.Close()
     End Sub
+
+    Private Sub Title_Click(sender As Object, e As EventArgs) Handles Title.Click
+
+    End Sub
+
+    Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
+
+    End Sub
+
+    Private Sub ComputerType_Click(sender As Object, e As EventArgs) Handles ComputerType.Click
+
+    End Sub
+
+    Private Sub ChosenDevice_Click(sender As Object, e As EventArgs) Handles ChosenDevice.Click
+
+    End Sub
+
+    Private Sub YourComputerName_Click(sender As Object, e As EventArgs) Handles YourComputerName.Click
+
+    End Sub
 End Class

@@ -23,5 +23,9 @@ Public Class ProfessionalForm3
         Me.Close()
     End Sub
 
-
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        Dim frmC1 = New ProfessionalForm2
+        frmC1.Show()
+        Me.Close()
+    End Sub
 End Class

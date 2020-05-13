@@ -22,19 +22,21 @@ Partial Class ProfessionalForm2
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ProfessionalForm2))
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Desktop = New System.Windows.Forms.Button()
         Me.Laptop = New System.Windows.Forms.Button()
         Me.Title = New System.Windows.Forms.Label()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Modern No. 20", 26.25!, System.Drawing.FontStyle.Bold)
-        Me.Label3.Location = New System.Drawing.Point(76, 132)
+        Me.Label3.Location = New System.Drawing.Point(155, 168)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(621, 36)
         Me.Label3.TabIndex = 11
@@ -43,29 +45,33 @@ Partial Class ProfessionalForm2
         'Desktop
         '
         Me.Desktop.AccessibleName = ""
+        Me.Desktop.BackColor = System.Drawing.Color.DarkViolet
         Me.Desktop.Font = New System.Drawing.Font("Modern No. 20", 20.25!)
-        Me.Desktop.Location = New System.Drawing.Point(170, 239)
+        Me.Desktop.ForeColor = System.Drawing.Color.White
+        Me.Desktop.Location = New System.Drawing.Point(188, 298)
         Me.Desktop.Name = "Desktop"
         Me.Desktop.Size = New System.Drawing.Size(189, 81)
         Me.Desktop.TabIndex = 12
         Me.Desktop.Text = "Desktop"
-        Me.Desktop.UseVisualStyleBackColor = True
+        Me.Desktop.UseVisualStyleBackColor = False
         '
         'Laptop
         '
+        Me.Laptop.BackColor = System.Drawing.Color.DarkViolet
         Me.Laptop.Font = New System.Drawing.Font("Modern No. 20", 20.25!)
-        Me.Laptop.Location = New System.Drawing.Point(404, 239)
+        Me.Laptop.ForeColor = System.Drawing.Color.White
+        Me.Laptop.Location = New System.Drawing.Point(539, 298)
         Me.Laptop.Name = "Laptop"
         Me.Laptop.Size = New System.Drawing.Size(189, 81)
         Me.Laptop.TabIndex = 13
         Me.Laptop.Text = "Laptop"
-        Me.Laptop.UseVisualStyleBackColor = True
+        Me.Laptop.UseVisualStyleBackColor = False
         '
         'Title
         '
         Me.Title.AutoSize = True
         Me.Title.Font = New System.Drawing.Font("Modern No. 20", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Title.Location = New System.Drawing.Point(127, 9)
+        Me.Title.Location = New System.Drawing.Point(184, 1)
         Me.Title.Name = "Title"
         Me.Title.Size = New System.Drawing.Size(549, 50)
         Me.Title.TabIndex = 14
@@ -77,7 +83,7 @@ Partial Class ProfessionalForm2
         Me.Button3.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Button3.Location = New System.Drawing.Point(698, 395)
+        Me.Button3.Location = New System.Drawing.Point(804, 449)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(90, 43)
         Me.Button3.TabIndex = 15
@@ -90,27 +96,42 @@ Partial Class ProfessionalForm2
         Me.Button1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Button1.Location = New System.Drawing.Point(12, 395)
+        Me.Button1.Location = New System.Drawing.Point(12, 449)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(90, 43)
         Me.Button1.TabIndex = 16
         Me.Button1.Text = "Home"
         Me.Button1.UseVisualStyleBackColor = False
         '
+        'Button4
+        '
+        Me.Button4.BackColor = System.Drawing.Color.SlateBlue
+        Me.Button4.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Button4.Location = New System.Drawing.Point(12, 394)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(90, 49)
+        Me.Button4.TabIndex = 20
+        Me.Button4.Text = "Back"
+        Me.Button4.UseVisualStyleBackColor = False
+        '
         'ProfessionalForm2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(906, 504)
+        Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Title)
         Me.Controls.Add(Me.Laptop)
         Me.Controls.Add(Me.Desktop)
         Me.Controls.Add(Me.Label3)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "ProfessionalForm2"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "ProfessionalForm2"
+        Me.Text = "CSS Professional"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -122,4 +143,5 @@ Partial Class ProfessionalForm2
     Friend WithEvents Title As Label
     Friend WithEvents Button3 As Button
     Friend WithEvents Button1 As Button
+    Friend WithEvents Button4 As Button
 End Class
