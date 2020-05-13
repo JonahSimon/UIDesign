@@ -22,4 +22,10 @@ Public Class ProfessionalForm2
         frm.Show()
         Me.Close()
     End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        Dim frmC1 = New ProfessionalForm1
+        frmC1.Show()
+        Me.Close()
+    End Sub
 End Class

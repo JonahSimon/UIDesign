@@ -22,6 +22,7 @@ Partial Class StartupPage
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(StartupPage))
         Me.Title = New System.Windows.Forms.Label()
         Me.Profesional = New System.Windows.Forms.Button()
         Me.Gaming = New System.Windows.Forms.Button()
@@ -110,9 +111,10 @@ Partial Class StartupPage
         Me.Controls.Add(Me.Gaming)
         Me.Controls.Add(Me.Profesional)
         Me.Controls.Add(Me.Title)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "StartupPage"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Form1"
+        Me.Text = "CSS"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

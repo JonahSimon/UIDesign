@@ -31,6 +31,9 @@ Partial Class ProfessionalSelections
         Me.ChosenDevice = New System.Windows.Forms.PictureBox()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
+        Me.Title = New System.Windows.Forms.Label()
+        Me.YourComputerName = New System.Windows.Forms.Label()
+        Me.Button1 = New System.Windows.Forms.Button()
         CType(Me.ChosenDevice, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -38,17 +41,17 @@ Partial Class ProfessionalSelections
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Modern No. 20", 26.25!, System.Drawing.FontStyle.Bold)
-        Me.Label3.Location = New System.Drawing.Point(266, 45)
+        Me.Label3.Location = New System.Drawing.Point(310, 168)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(252, 36)
+        Me.Label3.Size = New System.Drawing.Size(354, 36)
         Me.Label3.TabIndex = 18
-        Me.Label3.Text = "Your Selections"
+        Me.Label3.Text = "Our Recommendations"
         '
         'ComputerType
         '
         Me.ComputerType.AutoSize = True
         Me.ComputerType.Font = New System.Drawing.Font("Modern No. 20", 20.25!)
-        Me.ComputerType.Location = New System.Drawing.Point(12, 145)
+        Me.ComputerType.Location = New System.Drawing.Point(12, 220)
         Me.ComputerType.Name = "ComputerType"
         Me.ComputerType.Size = New System.Drawing.Size(65, 29)
         Me.ComputerType.TabIndex = 20
@@ -58,7 +61,7 @@ Partial Class ProfessionalSelections
         '
         Me.Price.AutoSize = True
         Me.Price.Font = New System.Drawing.Font("Modern No. 20", 20.25!)
-        Me.Price.Location = New System.Drawing.Point(177, 145)
+        Me.Price.Location = New System.Drawing.Point(222, 220)
         Me.Price.Name = "Price"
         Me.Price.Size = New System.Drawing.Size(72, 29)
         Me.Price.TabIndex = 21
@@ -68,7 +71,7 @@ Partial Class ProfessionalSelections
         '
         Me.DeskOrLap.AutoSize = True
         Me.DeskOrLap.Font = New System.Drawing.Font("Modern No. 20", 20.25!)
-        Me.DeskOrLap.Location = New System.Drawing.Point(341, 145)
+        Me.DeskOrLap.Location = New System.Drawing.Point(459, 220)
         Me.DeskOrLap.Name = "DeskOrLap"
         Me.DeskOrLap.Size = New System.Drawing.Size(205, 29)
         Me.DeskOrLap.TabIndex = 23
@@ -78,7 +81,7 @@ Partial Class ProfessionalSelections
         '
         Me.CompCasual.AutoSize = True
         Me.CompCasual.Font = New System.Drawing.Font("Modern No. 20", 20.25!)
-        Me.CompCasual.Location = New System.Drawing.Point(603, 145)
+        Me.CompCasual.Location = New System.Drawing.Point(709, 220)
         Me.CompCasual.Name = "CompCasual"
         Me.CompCasual.Size = New System.Drawing.Size(185, 29)
         Me.CompCasual.TabIndex = 24
@@ -87,7 +90,7 @@ Partial Class ProfessionalSelections
         'ChosenDevice
         '
         Me.ChosenDevice.Image = CType(resources.GetObject("ChosenDevice.Image"), System.Drawing.Image)
-        Me.ChosenDevice.Location = New System.Drawing.Point(237, 218)
+        Me.ChosenDevice.Location = New System.Drawing.Point(310, 274)
         Me.ChosenDevice.Name = "ChosenDevice"
         Me.ChosenDevice.Size = New System.Drawing.Size(281, 189)
         Me.ChosenDevice.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -100,7 +103,7 @@ Partial Class ProfessionalSelections
         Me.Button3.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Button3.Location = New System.Drawing.Point(698, 395)
+        Me.Button3.Location = New System.Drawing.Point(804, 449)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(90, 43)
         Me.Button3.TabIndex = 26
@@ -113,18 +116,54 @@ Partial Class ProfessionalSelections
         Me.Button4.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Button4.Location = New System.Drawing.Point(12, 395)
+        Me.Button4.Location = New System.Drawing.Point(12, 449)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(90, 43)
         Me.Button4.TabIndex = 27
         Me.Button4.Text = "Home"
         Me.Button4.UseVisualStyleBackColor = False
         '
+        'Title
+        '
+        Me.Title.AutoSize = True
+        Me.Title.Font = New System.Drawing.Font("Modern No. 20", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Title.Location = New System.Drawing.Point(184, 1)
+        Me.Title.Name = "Title"
+        Me.Title.Size = New System.Drawing.Size(549, 50)
+        Me.Title.TabIndex = 29
+        Me.Title.Text = "Computer Selection Sevice"
+        '
+        'YourComputerName
+        '
+        Me.YourComputerName.AutoSize = True
+        Me.YourComputerName.Font = New System.Drawing.Font("Modern No. 20", 20.25!)
+        Me.YourComputerName.Location = New System.Drawing.Point(366, 466)
+        Me.YourComputerName.Name = "YourComputerName"
+        Me.YourComputerName.Size = New System.Drawing.Size(175, 29)
+        Me.YourComputerName.TabIndex = 30
+        Me.YourComputerName.Text = "YourComputer"
+        '
+        'Button1
+        '
+        Me.Button1.BackColor = System.Drawing.Color.SlateBlue
+        Me.Button1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Button1.Location = New System.Drawing.Point(12, 394)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(90, 49)
+        Me.Button1.TabIndex = 31
+        Me.Button1.Text = "Back"
+        Me.Button1.UseVisualStyleBackColor = False
+        '
         'ProfessionalSelections
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(906, 504)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.YourComputerName)
+        Me.Controls.Add(Me.Title)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.ChosenDevice)
@@ -133,6 +172,7 @@ Partial Class ProfessionalSelections
         Me.Controls.Add(Me.Price)
         Me.Controls.Add(Me.ComputerType)
         Me.Controls.Add(Me.Label3)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "ProfessionalSelections"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "CSS Selections"
@@ -150,4 +190,7 @@ Partial Class ProfessionalSelections
     Friend WithEvents ChosenDevice As PictureBox
     Friend WithEvents Button3 As Button
     Friend WithEvents Button4 As Button
+    Friend WithEvents Title As Label
+    Friend WithEvents YourComputerName As Label
+    Friend WithEvents Button1 As Button
 End Class

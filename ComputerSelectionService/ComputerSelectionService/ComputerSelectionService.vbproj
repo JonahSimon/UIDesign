@@ -232,12 +232,24 @@
     <Content Include="pictures\1000+CasualLaptop.jpg" />
     <Content Include="pictures\1000+CompDesktop.jpg" />
     <Content Include="pictures\1000+CompLaptop.jpg" />
+    <None Include="pictures\Icon.ico" />
+    <None Include="pictures\1000+DataDesktop.jpg" />
+    <None Include="pictures\1000+DataLaptop.jpg" />
+    <None Include="pictures\1000+GraphicDesktop.jpg" />
+    <None Include="pictures\1000+GraphicLaptop.jpg" />
     <Content Include="pictures\500-1000CasualDesktop.jpg" />
     <Content Include="pictures\500-1000CasualLaptop.jpg" />
     <Content Include="pictures\500-1000CompDesktop.jpg" />
     <Content Include="pictures\500-1000CompLaptop.jpg" />
+    <None Include="pictures\500to1000DataLaptop.jpg" />
+    <None Include="pictures\500GraphicDesktop.jpg" />
+    <None Include="pictures\500-1000DataDesktop.jpg" />
+    <None Include="pictures\500-1000GraphicDesktop.jpg" />
+    <None Include="pictures\500-1000GraphicsLaptop.jpg" />
     <Content Include="pictures\500CasualLaptop.jpg" />
     <Content Include="pictures\500CompLaptop.jpg" />
+    <None Include="pictures\500DataDesktop.jpg" />
+    <None Include="pictures\500DataLaptop.jpg" />
     <Content Include="pictures\500GamingDesktop.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />

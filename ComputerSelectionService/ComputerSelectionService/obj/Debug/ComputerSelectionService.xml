@@ -42,6 +42,26 @@ ComputerSelectionService
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:ComputerSelectionService.My.Resources.Resources._1000_DataDesktop">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ComputerSelectionService.My.Resources.Resources._1000_DataLaptop">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ComputerSelectionService.My.Resources.Resources._1000_GraphicDesktop">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ComputerSelectionService.My.Resources.Resources._1000_GraphicLaptop">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:ComputerSelectionService.My.Resources.Resources._500_1000CasualDesktop">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -62,6 +82,21 @@ ComputerSelectionService
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:ComputerSelectionService.My.Resources.Resources._500_1000DataDesktop">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ComputerSelectionService.My.Resources.Resources._500_1000GraphicDesktop">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ComputerSelectionService.My.Resources.Resources._500_1000GraphicsLaptop">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:ComputerSelectionService.My.Resources.Resources._500CasualLaptop">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -72,9 +107,34 @@ ComputerSelectionService
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:ComputerSelectionService.My.Resources.Resources._500DataDesktop">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ComputerSelectionService.My.Resources.Resources._500DataLaptop">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:ComputerSelectionService.My.Resources.Resources._500GamingDesktop">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ComputerSelectionService.My.Resources.Resources._500GraphicDesktop">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ComputerSelectionService.My.Resources.Resources._500to1000DataLaptop">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ComputerSelectionService.My.Resources.Resources.Icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
 </summary>
 </member>
 </members>
