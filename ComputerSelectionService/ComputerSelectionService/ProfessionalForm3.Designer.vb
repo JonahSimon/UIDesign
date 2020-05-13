@@ -61,7 +61,7 @@ Partial Class ProfessionalForm3
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(189, 81)
         Me.Button1.TabIndex = 17
-        Me.Button1.Text = "Data Entry"
+        Me.Button1.Text = "Office" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Work"
         Me.Button1.UseVisualStyleBackColor = False
         '
         'Button2

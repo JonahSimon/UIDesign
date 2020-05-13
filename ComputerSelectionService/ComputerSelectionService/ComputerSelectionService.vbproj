@@ -226,18 +226,32 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+    <None Include="pictures\Thumbs.db" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="pictures\1000+CasualDesktop.jpg" />
     <Content Include="pictures\1000+CasualLaptop.jpg" />
     <Content Include="pictures\1000+CompDesktop.jpg" />
     <Content Include="pictures\1000+CompLaptop.jpg" />
+    <Content Include="pictures\500_1000EduDesk.jpg" />
+    <Content Include="pictures\500_1000EduLap.jpg" />
+    <Content Include="pictures\500_1000RecDesk.jpg" />
+    <Content Include="pictures\500_1000RecLap.jpg" />
+    <Content Include="pictures\Less500EduDesk.jpg" />
+    <Content Include="pictures\Less500EduLap.jpg" />
+    <Content Include="pictures\Less500RecDesk.jpg" />
+    <Content Include="pictures\Less500RecLap.jpg" />
+    <None Include="Resources\1000UpEduDesk.bmp" />
     <None Include="pictures\Icon.png" />
     <None Include="pictures\Icon.ico" />
     <None Include="pictures\1000+DataDesktop.jpg" />
     <None Include="pictures\1000+DataLaptop.jpg" />
     <None Include="pictures\1000+GraphicDesktop.jpg" />
     <None Include="pictures\1000+GraphicLaptop.jpg" />
+    <Content Include="pictures\1000UpEduDesk.jpg" />
+    <Content Include="pictures\1000UpEduLap.jpg" />
+    <Content Include="pictures\1000UpRecDesk.jpg" />
+    <Content Include="pictures\1000UpRecLap.jpg" />
     <Content Include="pictures\500-1000CasualDesktop.jpg" />
     <Content Include="pictures\500-1000CasualLaptop.jpg" />
     <Content Include="pictures\500-1000CompDesktop.jpg" />

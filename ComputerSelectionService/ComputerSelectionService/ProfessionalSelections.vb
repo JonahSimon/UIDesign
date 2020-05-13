@@ -15,7 +15,7 @@ Public Class ProfessionalSelections
             ChosenDevice.Image = ComputerSelectionService.My.Resources._500DataLaptop
             YourComputerName.Text = "Hipster Junk"
         End If
-        If Price.Text = "less than 500" And DeskOrLap.Text = "Laptop" And CompCasual.Text = "Data Entry" Then
+        If Price.Text = "less than 500" And DeskOrLap.Text = "Laptop" And CompCasual.Text = "Office Work" Then
             ChosenDevice.Image = ComputerSelectionService.My.Resources._500DataLaptop
             YourComputerName.Text = "Practical Paper Weight"
         End If
@@ -23,7 +23,7 @@ Public Class ProfessionalSelections
             ChosenDevice.Image = ComputerSelectionService.My.Resources._500_1000GraphicDesktop
             YourComputerName.Text = "Mercury Graphics"
         End If
-        If Price.Text = "500 to 1000" And DeskOrLap.Text = "Desktop" And CompCasual.Text = "Data Entry" Then
+        If Price.Text = "500 to 1000" And DeskOrLap.Text = "Desktop" And CompCasual.Text = "Office Work" Then
             ChosenDevice.Image = ComputerSelectionService.My.Resources._500_1000DataDesktop
             YourComputerName.Text = "Office Master Mk2"
         End If
@@ -31,7 +31,7 @@ Public Class ProfessionalSelections
             ChosenDevice.Image = ComputerSelectionService.My.Resources._500_1000GraphicsLaptop
             YourComputerName.Text = "Mercury Yogi"
         End If
-        If Price.Text = "500 to 1000" And DeskOrLap.Text = "Laptop" And CompCasual.Text = "Data Entry" Then
+        If Price.Text = "500 to 1000" And DeskOrLap.Text = "Laptop" And CompCasual.Text = "Office Work" Then
             ChosenDevice.Image = ComputerSelectionService.My.Resources._500to1000DataLaptop
             YourComputerName.Text = "Office Master GO"
         End If
@@ -39,7 +39,7 @@ Public Class ProfessionalSelections
             ChosenDevice.Image = ComputerSelectionService.My.Resources._1000_GraphicDesktop
             YourComputerName.Text = "PineApple IMak"
         End If
-        If Price.Text = "Over 1000" And DeskOrLap.Text = "Desktop" And CompCasual.Text = "Data Entry" Then
+        If Price.Text = "Over 1000" And DeskOrLap.Text = "Desktop" And CompCasual.Text = "Office Work" Then
             ChosenDevice.Image = ComputerSelectionService.My.Resources._1000_DataDesktop
             YourComputerName.Text = "Office Master Mk20"
         End If
@@ -47,7 +47,7 @@ Public Class ProfessionalSelections
             ChosenDevice.Image = ComputerSelectionService.My.Resources._1000_GraphicLaptop
             YourComputerName.Text = "PineApple to Gogh"
         End If
-        If Price.Text = "Over 1000" And DeskOrLap.Text = "Laptop" And CompCasual.Text = "Data Entry" Then
+        If Price.Text = "Over 1000" And DeskOrLap.Text = "Laptop" And CompCasual.Text = "Office Work" Then
             ChosenDevice.Image = ComputerSelectionService.My.Resources._1000_DataLaptop
             YourComputerName.Text = "Paper Pusher 5000"
         End If
