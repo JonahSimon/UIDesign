@@ -12,7 +12,7 @@ Public Class StartupPage
     End Sub
 
     Private Sub Consumer_Click(sender As Object, e As EventArgs) Handles Consumer.Click
-        Typingcomputer = "Casual"
+        Typingcomputer = "Personal"
         ConsumerForm1.Show()
         Me.Hide()
     End Sub
@@ -31,7 +31,9 @@ Public Class StartupPage
         Application.Exit()
     End Sub
 
+    Private Sub StartupPage_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+    End Sub
 End Class
 
 Public Class GamingVariables

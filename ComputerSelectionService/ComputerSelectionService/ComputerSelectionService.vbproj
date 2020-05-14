@@ -216,6 +216,8 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="bin\Debug\ComputerSelectionService.exe.config" />
+    <None Include="bin\Release\ComputerSelectionService.exe.config" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -229,6 +231,11 @@
     <None Include="pictures\Thumbs.db" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\Debug\ComputerSelectionService.exe" />
+    <Content Include="bin\Debug\ComputerSelectionService.pdb" />
+    <Content Include="bin\Release\ComputerSelectionService.exe" />
+    <Content Include="bin\Release\ComputerSelectionService.pdb" />
+    <Content Include="bin\Release\ComputerSelectionService.xml" />
     <Content Include="pictures\1000+CasualDesktop.jpg" />
     <Content Include="pictures\1000+CasualLaptop.jpg" />
     <Content Include="pictures\1000+CompDesktop.jpg" />

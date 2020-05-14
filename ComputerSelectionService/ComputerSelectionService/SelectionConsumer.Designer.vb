@@ -51,7 +51,7 @@ Partial Class SelectionConsumer
         '
         Me.DeskOrLap.AutoSize = True
         Me.DeskOrLap.Font = New System.Drawing.Font("Modern No. 20", 20.25!)
-        Me.DeskOrLap.Location = New System.Drawing.Point(336, 220)
+        Me.DeskOrLap.Location = New System.Drawing.Point(450, 220)
         Me.DeskOrLap.Name = "DeskOrLap"
         Me.DeskOrLap.Size = New System.Drawing.Size(205, 29)
         Me.DeskOrLap.TabIndex = 29
@@ -61,17 +61,17 @@ Partial Class SelectionConsumer
         '
         Me.CompCasual.AutoSize = True
         Me.CompCasual.Font = New System.Drawing.Font("Modern No. 20", 20.25!)
-        Me.CompCasual.Location = New System.Drawing.Point(621, 220)
+        Me.CompCasual.Location = New System.Drawing.Point(700, 220)
         Me.CompCasual.Name = "CompCasual"
-        Me.CompCasual.Size = New System.Drawing.Size(264, 29)
+        Me.CompCasual.Size = New System.Drawing.Size(139, 29)
         Me.CompCasual.TabIndex = 28
-        Me.CompCasual.Text = "RecrationOrEducation"
+        Me.CompCasual.Text = "RecrOrEdu"
         '
         'Price
         '
         Me.Price.AutoSize = True
         Me.Price.Font = New System.Drawing.Font("Modern No. 20", 20.25!)
-        Me.Price.Location = New System.Drawing.Point(175, 220)
+        Me.Price.Location = New System.Drawing.Point(220, 220)
         Me.Price.Name = "Price"
         Me.Price.Size = New System.Drawing.Size(72, 29)
         Me.Price.TabIndex = 27
