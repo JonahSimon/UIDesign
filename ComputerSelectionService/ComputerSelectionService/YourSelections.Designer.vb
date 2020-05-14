@@ -139,9 +139,9 @@ Partial Class YourSelections
         Me.Title.Font = New System.Drawing.Font("Modern No. 20", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Title.Location = New System.Drawing.Point(184, 1)
         Me.Title.Name = "Title"
-        Me.Title.Size = New System.Drawing.Size(549, 50)
+        Me.Title.Size = New System.Drawing.Size(569, 50)
         Me.Title.TabIndex = 28
-        Me.Title.Text = "Computer Selection Sevice"
+        Me.Title.Text = "Computer Selection Service"
         '
         'Button4
         '

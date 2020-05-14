@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class SelectionConsumer
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class SelectionConsumer
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(SelectionConsumer))
         Me.ChosenDevice = New System.Windows.Forms.PictureBox()
@@ -93,9 +93,9 @@ Partial Class SelectionConsumer
         Me.Title.Font = New System.Drawing.Font("Modern No. 20", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Title.Location = New System.Drawing.Point(184, 1)
         Me.Title.Name = "Title"
-        Me.Title.Size = New System.Drawing.Size(549, 50)
+        Me.Title.Size = New System.Drawing.Size(569, 50)
         Me.Title.TabIndex = 33
-        Me.Title.Text = "Computer Selection Sevice"
+        Me.Title.Text = "Computer Selection Service"
         '
         'Label3
         '
